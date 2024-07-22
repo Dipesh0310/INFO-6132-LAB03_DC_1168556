@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // Make sure to install @expo/vector-icons if not already installed
+import { Ionicons } from '@expo/vector-icons'; 
 
 const mockData = [
   { id: '1', name: 'Starbucks', amount: '$12.00', date: '2024-03-10' },

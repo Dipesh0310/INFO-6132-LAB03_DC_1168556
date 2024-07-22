@@ -3,16 +3,16 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native
 import { Ionicons } from '@expo/vector-icons'; 
 
 const mockData = [
-  { id: '1', name: 'Starbucks', amount: '$12.00', date: '2024-03-10' },
-  { id: '2', name: 'Apple Store', amount: '$101.00', date: '2024-03-11' },
-  { id: '3', name: 'Sephora', amount: '$120.00', date: '2024-03-12' },
-  { id: '4', name: 'Shoppers Drug Mart', amount: '$12.00', date: '2024-03-13' },
-  { id: '5', name: 'Pizza Hut', amount: '$24.00', date: '2024-03-14' },
-  { id: '6', name: 'Cheesecake Factory', amount: '$45.00', date: '2024-03-15' },
+  { id: '1', name: 'Starbucks', amount: '$12.00', date: 'Mar 13,2024' },
+  { id: '2', name: 'Apple Store', amount: '$101.00', date: 'Mar 14,2024' },
+  { id: '3', name: 'Sephora', amount: '$120.00', date: 'Mar 15,2024' },
+  { id: '4', name: 'Shoppers Drug Mart', amount: '$12.00', date: 'Mar 12,2024' },
+  { id: '5', name: 'Pizza Hut', amount: '$24.00', date: 'Mar 10,2024' },
+  { id: '6', name: 'Cheesecake Factory', amount: '$45.00', date: 'Mar 11,2024' },
   { id: '7', name: 'Nike', amount: '$250.00', date: '2024-03-16' },
   { id: '8', name: 'Tim Hortons', amount: '$7.89', date: '2024-03-17' },
   { id: '9', name: 'Whole Foods', amount: '$78.00', date: '2024-03-18' },
-  { id: '10', name: 'Cineplex', amount: '$42.50', date: '2024-03-19' },
+  { id: '10', name: 'Cineplex', amount: '$42.50', date: '2024-Mar-19' },
 ];
 
 const TransactionsListScreen = ({ navigation }) => {
